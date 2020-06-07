@@ -1,2 +1,4 @@
 # Image-Forgery-Detection
-This is project is an attempt to detect forged images.
+This project is an attempt to detect forged images using DWT and SIFT feature detection algorithms.
+
+Following is the block diagram.
