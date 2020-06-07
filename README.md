@@ -9,7 +9,7 @@ Block diagram of the system is as follows.
 ## Decomposing Using DWT  
 
 Initially, 2D-DWT is applied in the initial stage of forgery detection process as it helps to extract more number of SIFT features which will help in better detection performance. DWT is applied on the image for copy-move forgery detection, the image is decomposed into four different sub-bands LL, LH, HL, and HH. Most of the data is concentrated in LL sub-band and it is considered as the approximation of the image. It represents the coarse level coefficients of the original image. 
-It is the LL sub-band which is decomposed into four sub-band at the next level. Size of the image is reduced at every level by the DWT transform. Fig. 4 shows the decomposing of Butterfly image after applying DWT on it, the image is divided in 4 parts in first level and in next level its LL sub-band is further decomposed.
+It is the LL sub-band which is decomposed into four sub-band at the next level. Size of the image is reduced at every level by the DWT transform. below shows the decomposing of Butterfly image after applying DWT on it, the image is divided in 4 parts in first level and in next level its LL sub-band is further decomposed.
 
 ![Block Diagram](images/1.png)
 
@@ -55,7 +55,7 @@ In the image below, the first part shows which are the forged regions and the pa
  
  ![result](images/testimageforged.png)
  
- Below is the result image. The image has been resized by the system. As we can see the forged region is completed marked dark.
+ Below is the result image. The image has been resized by the system. As we can see the forged region is detected by the sysyem and  marked in black.
  
  
  ![result](images/testimageforgerydetected.png)
