@@ -1,4 +1,5 @@
 # Image-Forgery-Detection
+##### By- Pranav Mare
 This project is an attempt to detect forged images using DWT and SIFT feature detection algorithms.
 
 Block diagram of the system is as follows.
